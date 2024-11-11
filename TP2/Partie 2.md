@@ -50,3 +50,5 @@ marmotte:$y$j9T$nTjsJknTmIKydf0RQth1z0$IZrMWlp.dgao23VYqa5BvVf2WXL2Z9k1NFrThfdyN
 exit
 
 ### Assurez-vous que vous pouvez vous connecter en tant que l'utilisateur marmotte
+su marmotte  
+cd /home/papier_alu
