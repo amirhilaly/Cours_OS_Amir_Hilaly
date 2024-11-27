@@ -5,9 +5,13 @@
 🌞 Avec une commande apt search, déterminez si le paquet ghidra est disponible
 🌞 Installez le paquet ghidra
 ```
-amimir@vbox:~$ apt search ghidra
-Sorting... Done
-Full Text Search... Done
+amimir@vbox:~/work$ ls
+bom.json  Extensions  ghidraRun      GPL      licenses  support
+docs      Ghidra      ghidraRun.bat  LICENSE  server
+amimir@vbox:~/work$ file Ghidra
+Ghidra: directory
+amimir@vbox:~/work$ file ghidraRun
+ghidraRun: Bourne-Again shell script, ASCII text executable
 ```
 
 🌞 Récupérez le code de password_2.c sur la machine Linux et compilez-le
