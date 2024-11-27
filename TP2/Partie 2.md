@@ -1,10 +1,13 @@
 ### Trouver le chemin vers le répertoire personnel de votre utilisateur
 
+```
 cat /etc/passwd  
 /home/amimir:/bin/bash
+```
 
 ### Vérifier les permissions du répertoire personnel de votre utilisateurs
 
+```
 amimir@vbox:~$ ls -l /home/amimir  
 total 36  
 drwxr-xr-x 4 amimir amimir 4096 Nov  7 10:46 Desktop  
@@ -16,14 +19,14 @@ drwxr-xr-x 2 amimir amimir 4096 Nov  6 11:56 Pictures
 drwxr-xr-x 2 amimir amimir 4096 Nov  6 11:56 Public  
 drwxr-xr-x 2 amimir amimir 4096 Nov  6 11:56 Templates  
 drwxr-xr-x 2 amimir amimir 4096 Nov  6 11:56 Videos  
-
+```
 
  
 ### Trouver le chemin du fichier de configuration du serveur SSH
-
+```
 root@vbox:/# find . -name sshd_config
 ./etc/ssh/sshd_config
-
+```
 ### Trouver le chemin du fichier de logs SSH
 à faire
 
