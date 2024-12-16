@@ -1,0 +1,11 @@
+[Unit]
+Description=Un p'tit service pour télécharger des vidéos youtube
+
+[Service]
+Type=oneshot
+ExecStart=/opt/yt/yt-next-gen.sh
+User=yt
+WorkingDirectory=/opt/yt
+
+[Install]
+WantedBy=multi-user.target
