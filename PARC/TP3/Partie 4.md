@@ -146,8 +146,7 @@ bomb  lost+found  music_250115_101653.tar.gz  music_250115_102621.tar.gz  music_
 🌞 Configurer un lancement automatique du service à intervalles réguliers
 
 ```
-Description=Run Backup Music Service every hour
-
+Description=Backup musik!
 [Timer]
 OnCalendar=hourly
 Persistent=true
